@@ -25,6 +25,12 @@ body{
     margin-bottom: 100px;
 }
 
+.footer{
+    text-align: center;
+    font-size: 30px;
+    color: gray;
+}
+
 
 
 @media only screen and (max-width: 600px) {
@@ -50,6 +56,7 @@ body{
     .content{
         grid-template-columns: auto auto;
         justify-content: space-around;
+        /* margin-top: 30px; */
 
     }
 
@@ -60,6 +67,12 @@ body{
 
     .head h6{
         font-weight: bolder;
+    }
+
+    .footer{
+        text-align: center;
+        font-size: 15px;
+        color: gray;
     }
 }
 
