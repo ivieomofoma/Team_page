@@ -21,14 +21,30 @@ body{
     width: 238px;
     height: 341px;
 }
-.content p{
-    margin-bottom: 100px;
+
+
+
+.cont{
+    display: flex;
+}
+.writeup{
+    writing-mode: vertical-rl;
+}
+
+.writeup2{
+    margin-top: 60px;
+}
+
+.push{
+    position: relative;
+    margin-top: 60px;
 }
 
 .footer{
     text-align: center;
     font-size: 30px;
     color: gray;
+    margin-top: 60px;
 }
 
 
@@ -67,6 +83,15 @@ body{
 
     .head h6{
         font-weight: bolder;
+    }
+
+    .push2{
+        /* position: relative; */
+        margin-top: 90px;
+    }
+
+    .writeup3{
+        margin-top: 90px;
     }
 
     .footer{
